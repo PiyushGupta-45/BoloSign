@@ -30,15 +30,7 @@ cd backend
 npm install
 ```
 
-3. Create a `.env` file in the backend directory:
-```env
-MONGO_URI=mongodb://localhost:27017/pdf-signer
-PORT=5000
-```
-
-4. (Optional) Start MongoDB if you want audit logging. The app will work without MongoDB, but audit logs won't be saved.
-
-5. Start the backend server:
+3. Start the backend server:
 ```bash
 npm start
 ```
